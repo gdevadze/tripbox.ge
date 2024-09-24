@@ -1,0 +1,165 @@
+@import '../vendor/font-awesome/css/all.min.css';
+@import '../vendor/bootstrap-icons/bootstrap-icons.css';
+@import '../vendor/tiny-slider/tiny-slider.css';
+@import '../vendor/glightbox/css/glightbox.css';
+@import '../vendor/flatpickr/css/flatpickr.min.css';
+@import '../vendor/choices/css/choices.min.css';
+@import '../vendor/nouislider/nouislider.css';
+@import 'style.css';
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.navbar-nav {
+    margin: 0 auto;
+}
+.container-fluid {
+--bs-gutter-x: 5.875rem;
+}
+.home-menu-buttons img{
+    height: 40px;
+    width: 40px;
+}
+.home-menu-buttons-last {
+    height: 30px;
+    width: 30px;
+}
+header {
+    background: #fff0;
+}
+.hero-map {
+    position: absolute;
+    width: 70%;
+    height: 700px;
+    object-fit: contain;
+    z-index: -1;
+    top: -40px;
+    right: -30px;
+}
+.display-5 {
+    font-size:50px!important;
+    color:#31344B;
+}
+.hero-p {
+    color: #56596B;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.search-me {
+    padding: 10px 25px 10px 35px;
+    background: #78BC61;
+    color: #fff;
+    border-radius: 30px;
+    margin-left: 60px;
+   
+    margin-top: 35px;
+}
+.search-me img {
+    padding-left: 10px;
+}
+.hero-car {
+    position: absolute;
+    height: 400px;
+    object-fit: contain;
+    right: -32%;
+    margin-top: 15%;
+}
+.choices .choices__inner {
+    border: 1px solid #48713A;
+}
+.search-bar {
+    margin-top: 290px;
+}
+.search-bar i {
+    color:#48713A;
+}
+.form-control-border .form-label {
+    color: #232538;
+}
+.form-control-border .choices .choices__placeholder {
+    color: #232538; 
+}
+.form-control-border .flatpickr {
+    border: 1px solid #48713A;
+    background: #fff!important;
+}
+.src-btn {
+    background-color: #78BC61;
+    border: 0;
+    margin-top: 15px;
+    padding: 15px 25px 15px 35px;
+    color: #fff;
+    border-radius: 20px;
+}
+.bg-for-banners {
+    background: linear-gradient(114.64deg, #78BC61 7.43%, #AED7A0 91.37%);
+    height: 250px!important;
+}
+.bg-for-banners h5 {
+    color:#F2F2F2;
+    font-size: 60px;
+    font-weight: bold;
+}
+.bg-for-banners p {
+    color:#232538;
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom:15px;
+}
+
+.bg-for-banners img {
+    margin-left: 35%;
+ }
+ .sec-banner-size {
+    font-size:30px!important;
+    text-transform: capitalize;
+ }
+ .form-check-input {
+    --bs-form-check-bg: #dfdfe300;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-form-check-bg);
+    background-image: var(--bs-form-check-bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid #78BC61;
+    print-color-adjust: exact;
+}
+.search-home-selects {
+    text-align: right;
+    margin-top: 15px;
+}
+.search-home-selects select {
+    border: 0;
+    margin-right: 15px;
+}
+.car-parametres li{
+    text-align: center;
+    list-style: none;
+}
+.car-parametres li {
+    font-size:13px;
+}
+.stars-place {
+    margin-bottom: 15px;
+}
+.text-success {
+    color:#000!important;
+
+}
+footer {
+    background: linear-gradient(180deg, #FFFFFF 0%, #D8D8D8 100%);
+
+}
+.nav.flex-column:not(.nav-pills) .nav-link {
+    padding-left: 0;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    color: #232538!important;
+}
